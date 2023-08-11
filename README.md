@@ -1,4 +1,4 @@
-# SKINTELLECT : AI+IoT based skin analaysis & recommendations system
+# SKINTELLECT : AI+IoT BASED SKIN ANALYSIS & RECOMMENDATIONS SYSTEM
  
 # STORY
 In the past, obtaining a comprehensive skin analysis was a cumbersome and time-consuming process, impacting people's daily lives in various ways. The journey often began with individuals recognizing the need to assess their skin health due to concerns or changing skin conditions. To get their skin analysed, individuals had to schedule appointments with dermatologists or specialized skin clinics, juggling busy work schedules and personal commitments to make time for these visits. The first obstacle was navigating through traffic and commuting to the clinics, which consumed valuable time and added stress to an already hectic lifestyle. Once at the clinic, patients often faced long wait times before meeting the dermatologist.
