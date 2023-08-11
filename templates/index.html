@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SKINTELLECT</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f0f0f0;
+          margin: 0;
+          padding: 0;
+        }
+        header {
+          background-color: #007bff;
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+        }
+        h1 {
+          margin: 0;
+          font-size: 48px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          font-weight: bold;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        h2 {
+          margin: 0;
+          font-size: 24px;
+          letter-spacing: 1px;
+          font-weight: bold;
+        }
+        p {
+          font-size: 18px;
+          max-width: 600px;
+          margin: 20px auto;
+        }
+        .container {
+          text-align: center;
+        }
+        #submit-btn {
+          display: block;
+          margin: 0 auto;
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          padding: 12px 20px;
+          font-size: 16px;
+          cursor: pointer;
+          border-radius: 4px;
+          transition: background-color 0.3s ease;
+        }
+        #submit-btn:hover {
+          background-color: #0056b3;
+        }
+        /* Center and fix the textarea */
+        textarea {
+          width: 300px;
+          height: 50px;
+          display: block;
+          margin: 20px auto;
+          resize: none;
+        }
+
+        /* Media Queries for responsive header */
+        @media (max-width: 768px) {
+          h1 {
+            font-size: 36px;
+          }
+          h2 {
+            font-size: 20px;
+          }
+          p {
+            font-size: 16px;
+          }
+          /* Adjust padding for better mobile view */
+          header {
+            padding: 10px;
+          }
+        }
+
+        /* Media Query for larger screens, e.g., Samsung M53 */
+        @media (min-width: 768px) and (max-width: 1024px) {
+          h1 {
+            font-size: 42px;
+          }
+          h2 {
+            font-size: 22px;
+          }
+        }
+    </style>    
+</head>
+<body>
+    <header>
+      <h1>SKINTELLECT</h1>
+      <h2>Intelligent Skin Analysis</h2>
+    </header>
+
+    <div class="container">
+        <p>Welcome to SKINTELLECT!<br>Click the button below to start the skin analysis process.</p>
+        <!-- Existing input fields -->
+        <textarea type="text" id="phone-number" rows="2" cols="40" placeholder="Enter your phone number along with country code"></textarea>
+        <textarea id="text" rows="2" cols="40" placeholder="Please enter a valid email id"></textarea>
+        
+        <!-- New input fields for gender and age -->
+        <textarea type="text" id="gender" rows="2" cols="40" placeholder="Enter your gender"></textarea>
+        <textarea type="text" id="age" rows="2" cols="40" placeholder="Enter your age"></textarea>
+    </div>
+    <div>
+        <button id="submit-btn" onclick="publishText()">Start Analysis</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function publishText() {
+            var text = document.getElementById('text').value;
+            var phoneNumber = document.getElementById('phone-number').value;
+            var gender = document.getElementById('gender').value; // Get the gender from the input field
+            var age = document.getElementById('age').value; // Get the age from the input field
+            $.ajax({
+                url: '/mqtt-publish',
+                type: 'POST',
+                data: { 
+                    text: text, 
+                    'phone-number': phoneNumber, 
+                    gender: gender, // Send gender
+                    age: age // Send age
+                },
+                success: function(response) {
+                    console.log(response);
+                    showAlert('Note: Please stand closer to the camera to capture a picture of your face');
+                },
+                error: function(error) {
+                    console.error(error);
+                }
+            });
+        }
+
+        function showAlert(message) {
+            alert(message);
+        }
+    </script>
+</body>
+</html>
