@@ -30,19 +30,22 @@ By eliminating the need for multiple visits to dermatologists or clinics and red
 With a user-friendly interface and data-driven approach, this project promises to revolutionize skincare analysis, offering a seamless and personalized skincare experience for all users. It unlocks the true potential of every individual's skin health, making it an indispensable tool in the skincare industry. The future of skincare analysis is brighter than ever with this innovative project, offering a new era of personalized care.
 
 
-![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/218bb026-561a-4b06-9b58-22e52c0212df)
+![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/1bef16d1-203d-4e44-819b-5c9ca542cfab)
+
 
 # LIBRARIES, SOFTWARE COMPONENTS AND ONLINE SERVICES USED 
-![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/ab751f95-78b3-4c31-a056-3a600e0f2321)
+
+![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/4a80d216-d7c1-4707-a28a-1b2290144da4)
 
 
 # HARDWARE COMPONENTS USED
-![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/043e7a45-fb63-419e-890b-31fad3c0743d) 
-![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/02c4eb4c-65f1-4415-807e-0393c17de6f0)
-![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/b4027835-8cdc-4ad3-abec-4cba748cdc2b)
-![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/fcbb4920-b3d2-4db7-9c17-9a6a92984290)
-![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/c8ba409a-2149-409c-abc8-05f33e9f64b0)
-![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/e812e8e8-c324-4e54-8c6f-e9a8ba6e71bb)
+1.	Ultrasonic sensor (HC-SR04) 
+2.	OLED display (Adafruit SSD1306) 
+3.	WIZnet W5300 TOE Shield Board
+4.	OpenMV H7 camera module OpenMV H7 camera module
+5.	Jumper wires
+6.	Breadboard
+
 
 # PROGRAMMING LANGUAGES USED
 1.	Python
@@ -51,12 +54,7 @@ With a user-friendly interface and data-driven approach, this project promises t
 4.	JAVASCRIPT
 5.	C/C++
 
-![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/a5122c5a-d092-479e-99d9-b891665c2ae9)
 
-
-![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/36462c8a-2e00-4d6a-be34-5e330fd7a68c)
-
-![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/7120b590-9fbd-4407-908b-294664886195)
 
 # APIs USED
 1. WeatherStack API
@@ -65,8 +63,14 @@ With a user-friendly interface and data-driven approach, this project promises t
 4. openAI API
 5. Google Auth API
 
+![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/20eebf56-795f-4a2d-86ba-3cc1aca9f2a4)
+![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/0a7bc045-3bcf-430b-9f31-27af1fc49123)
+![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/a7e27892-b3b9-4e09-b378-dc4fbf5b19dc)
+
    
 # CONNECTION 
-![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/3467383d-16d1-4955-9cbe-f84131fa229f)
 
-# PLEASE REFER TO DOC FOR FULL DETAILS
+![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/9b4a0426-e807-4202-8408-71cedd9ecdfa)
+
+
+(PLEASE REFER TO DOC FOR FULL DETAILS)
