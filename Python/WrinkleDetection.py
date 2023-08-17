@@ -9,7 +9,9 @@ import combine
 
 
 from skimage import color
-from skimage.feature import greycomatrix, greycoprops
+from skimage.feature import graycomatrix, graycoprops
+
+
 
 
 wrinkles = ""
@@ -158,9 +160,9 @@ def skin_texture_analysis():
     gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     
     # Calculate the GLCM with specific properties (contrast and dissimilarity)
-    glcm = greycomatrix(gray_img, [1], [0], 256, symmetric=True, normed=True)
-    contrast = greycoprops(glcm, 'contrast')[0, 0]
-    dissimilarity = greycoprops(glcm, 'dissimilarity')[0, 0]
+    glcm = graycomatrix(gray_img, [1], [0], 256, symmetric=True, normed=True)
+    contrast = graycoprops(glcm, 'contrast')[0, 0]
+    dissimilarity = graycoprops(glcm, 'dissimilarity')[0, 0]
     # print("contrast : ",contrast)
     # print("dissimilarity : ",dissimilarity)
     return contrast
