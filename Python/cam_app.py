@@ -1,11 +1,11 @@
 from flask import Flask, request, send_file, render_template
 import os
 import time
-import InfluxDB_v1 as idb
+
 
 app = Flask(__name__)
 
-ts = idb.InfluxDB(bucket="AIoT")
+
 
 @app.route('/')
 def index():
@@ -30,10 +30,7 @@ def upload():
     base_url = request.base_url.rsplit('/', 1)[0]
     image_url = f"{base_url}/{file_path}"
 
-    measure = text_data
-    # Record data to Time-Series DB
-    ts.write(measure, ["device", text_data], ["image_url", image_url])
-
+    
     return image_url
 
 @app.route('/images/<filename>')
