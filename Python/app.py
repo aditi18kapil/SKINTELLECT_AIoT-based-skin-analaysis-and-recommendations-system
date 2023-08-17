@@ -15,8 +15,8 @@ hum = ""
 # MQTT broker configuration
 broker_address = "10.21.70.16"
 broker_port = 1883
-mqtt_topic = "MQTT-CAM"
-response_topic = "CAM-MQTT"
+mqtt_topic = "W5300-CAM"
+response_topic = "CAM-W5300"
 
 # Callback function when the client connects to the broker
 def on_connect(client, userdata, flags, rc):
