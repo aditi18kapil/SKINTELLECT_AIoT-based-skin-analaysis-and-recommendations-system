@@ -1,10 +1,7 @@
 import cv2
 import numpy as np
-from matplotlib import pyplot as plt
-from IPython.display import display, Image
 import requests
 import os
-
 from mtcnn.mtcnn import MTCNN
 
 # import mailsend
