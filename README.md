@@ -65,7 +65,8 @@ With a user-friendly interface and data-driven approach, this project promises t
 
 ![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/20eebf56-795f-4a2d-86ba-3cc1aca9f2a4)
 ![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/0a7bc045-3bcf-430b-9f31-27af1fc49123)
-![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/a7e27892-b3b9-4e09-b378-dc4fbf5b19dc)
+![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/52edd4e3-d944-476c-af17-7438d36e3935)
+
 
    
 # CONNECTION 
