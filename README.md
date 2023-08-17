@@ -35,7 +35,7 @@ With a user-friendly interface and data-driven approach, this project promises t
 
 # LIBRARIES, SOFTWARE COMPONENTS AND ONLINE SERVICES USED 
 
-![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/4a80d216-d7c1-4707-a28a-1b2290144da4)
+![image](https://github.com/aditi18kapil/SKINTELLECT_AIoT-based-skin-analaysis-and-recommendations-system/assets/118043393/dda85dac-1b96-4c51-9410-37f284c83765)
 
 
 # HARDWARE COMPONENTS USED
